@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Polizeipresse\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-02-27 19:56+0100\n"
+"PO-Revision-Date: 2012-02-27 20:01+0100\n"
+"Last-Translator: Karsten Strunk <karsten@strunk.eu>\n"
+"Language-Team: Karsten Strunk <karsten@strunk.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: L:\\workspace\\Polizeipresse\\trunk\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-SearchPath-0: .\n"
+
+
+msgid "Polizeipresse plugin: Please enter API key select police office"
+msgstr "Polizeipresse plugin: Bitte API-Schlüssel eingeben und Dienststellen auswählen."
+
+
+msgid "Your settings have been saved."
+msgstr "Ihre Einstellungen wurden gespeichert."
+
+
+msgid "Stories have been loaded."
+msgstr "Meldungen wurden geladen."
+
+
+msgid "Last processed story id has been reset."
+msgstr "Zuletzt verarbeitete Meldungs-ID wurde zurückgesetzt."
+
+
+msgid "Options"
+msgstr "Optionen"
+
+
+msgid "General"
+msgstr "Allgemein"
+
+
+msgid "Filter"
+msgstr "Filter"
+
+
+msgid "Cronjob"
+msgstr "Cronjob"
+
+
+msgid "This page contains fundamental plugin settings. Without API key and office id the plugin is unable to work."
+msgstr "Auf dieser Seite legen Sie grundlegende Einstellungen des Plugins fest. Ohne API-Schlüssel und ausgewählte Dienststelle funktioniert das Plugin nicht."
+
+
+msgid "If you do not have an API key, please register on the following page to get one"
+msgstr "Wenn Sie noch keinen API-Schlüssel haben, können Sie diesen auf der folgenden Seite bekommen"
+
+
+msgid "Click here"
+msgstr "Hier clicken"
+
+
+msgid "Polizeipresse API key"
+msgstr "Polizeipresse API-Schlüssel"
+
+
+msgid "Police office"
+msgstr "Polizeidienststelle"
+
+
+
+msgid "Search for offices"
+msgstr "Nach Polizeistationen suchen"
+
+
+msgid "Remove office"
+msgstr "Polizeistationen löschen"
+
+
+msgid "On this page you can define filters. These filteres are used to filter police stories. Multiple filters can be separated by comma."
+msgstr "Auf dieser Seite können Sie Filter definieren. Diese Filter werden verwendet, um Polizeimeldungen zu filtern. Mehrere Filter können durch Komma getrennt werden."
+
+
+msgid "Positive filters"
+msgstr "Positive Filter"
+
+
+
+msgid "Separate multiple filters by comma."
+msgstr "Mehrere Filter durch Komma trennen"
+
+
+msgid "Negative filters"
+msgstr "Negative Filter"
+
+
+msgid "New police stories can be automatically loaded and added to your blog. This is done every hour."
+msgstr "Neue Polizeimeldungen können automatisch abgefragt und zu Ihrem Blog hinzugefügt werden. Die Abfrage geschieht stündlich."
+
+
+msgid "Enable cronjob"
+msgstr "Cronjob einschalten"
+
+
+msgid "User for new posts"
+msgstr "Benutzer für neue Artikel"
+
+
+msgid "Category for new posts"
+msgstr "Kategorie für neue Artikel"
+
+
+msgid "Default category for new posts"
+msgstr "Default-Kategorie für neue Artikel"
+
+
+msgid "Publish new posts immediately"
+msgstr "Neue Meldungen sofort veröffentlichen"
+
+
+msgid "Notify on new stories"
+msgstr "Alarmierung bei neuen Meldungen"
+
+
+msgid "Last processed story id"
+msgstr "Letzte verarbeitete Meldungs-ID"
+
+msgid "Last cron execution time"
+msgstr "Letzt Ausführung des Cronjobs"
+
+
+
+msgid "unknown"
+msgstr "unbekannt"
+
+
+msgid "Date/time"
+msgstr "Datum/Uhrzeit"
+
+
+msgid "State"
+msgstr "Status"
+
+
+msgid "successfull"
+msgstr "erfolgreich"
+
+
+msgid "Load stories now"
+msgstr "Jetzt neue Meldungen laden"
+
+
+msgid "Reset last processed story id"
+msgstr "Zuletzt verarbeitete Meldungs-ID zurücksetzen"
+
+
+msgid "Save all"
+msgstr "Alles speichern"
+
+
+msgid "You can search for German police offices here. Start the search and select one item from the result list. Press apply to accept."
+msgstr "Sie können hier nach deutschen Polizeidienststellen suchen. Nach der Suche wählen sie eine Dienststelle aus und drücken 'übernehmen'."
+
+
+msgid "Search terms"
+msgstr "Suche"
+
+
+msgid "Search"
+msgstr "Suchen"
+
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+
+msgid "Search result"
+msgstr "Suchergebnis"
+
+
+msgid "Apply"
+msgstr "Übernehmen"
+
+
+msgid "No result from server."
+msgstr "Keine Dienststelle gefunden."
+
+
+msgid "An error occurred"
+msgstr "Ein unbekannter Fehler ist aufgetreten."
+
+
+msgid "Please enter API key"
+msgstr "Bitte API-Schlüssel eingeben"
+
+
+msgid "Please select police office"
+msgstr "Bitte Dienststelle auswählen"
+
+
+msgid "Source"
+msgstr "Quelle"
+
+
+msgid "Polizeipresse: New post added"
+msgstr "Polizeipresse: Neuen Artikel hinzugefügt"
+
+
+msgid "URL to admin page"
+msgstr "URL zur Admin-Seite"
+
+
+msgid "Displays latest police stories"
+msgstr "Zeigt aktuelle Polizeimeldungen"
+
+
+msgid "No stories"
+msgstr "Keine Meldungen vorhanden"
+
+
+msgid "Latest police stories"
+msgstr "Letzte Polizeimeldungen"
+
+
+msgid "Title"
+msgstr "Titel"
+
+
+msgid "Story count"
+msgstr "Anzahl Meldungen"
+
+
+msgid "Show date"
+msgstr "Datum anzeigen"
+
+
+msgid "Cache timeout"
+msgstr "Cache-Timeout"
+
+
+msgid "minute"
+msgstr "Minute"
+
+
+
+
+
+msgid "minutes"
+msgstr "Minuten"
+
+
+msgid "hour"
+msgstr "Stunde"
+
+
+msgid "hours"
+msgstr "Stunden"
+

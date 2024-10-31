@@ -1,0 +1,24 @@
+/*************************************
+ * Articles
+ *************************************/
+.polizeipresse-post {
+	margin-bottom: 2ex;
+}
+
+.polizeipresse-post .text {
+}
+
+.polizeipresse-post .source {
+	margin-top: 2ex;
+	font-weight: bold;
+}
+
+/*************************************
+ * Validation
+ *************************************/
+label.error {
+	color: #ff2222;
+	padding: 0 2ex;
+	font-weight: bold;
+}
+

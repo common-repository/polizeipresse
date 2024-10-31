@@ -1,0 +1,55 @@
+<project name="Polizeipresse" default="deploy" basedir=".">
+
+	<property name="BASE_DIR" location="trunk" />
+	<property name="BUILD_DIR" location="${BASE_DIR}/antout" />
+
+	<!-- User settings -->
+
+	<property file="${BASE_DIR}/build-user.properties" />
+	<fail message="Not all required properties are set">
+		<condition>
+			<not>
+				<and>
+					<isset property="version" />
+				</and>
+			</not>
+		</condition>
+	</fail>
+
+	<property name="BUILD_FILE" location="${BUILD_DIR}/polizeipresse-${version}.zip" />
+
+
+	<!-- Targets -->
+
+	<target name="clean">
+		<delete dir="${BUILD_DIR}" />
+	</target>
+
+	<target name="deploy">
+		<mkdir dir="${wordpressDir}/wp-content/plugins/Polizeipresse" />
+		<copy todir="${wordpressDir}/wp-content/plugins/Polizeipresse" failonerror="true">
+			<fileset dir="trunk">
+				<include name="**/*.php" />
+				<include name="css/*" />
+				<include name="js/*" />
+				<include name="img/*" />
+				<include name="i18n/*" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="package" depends="clean">
+		<mkdir dir="${BUILD_DIR}" />
+		<zip destfile="${BUILD_FILE}">
+			<zipfileset prefix="Polizeipresse" dir="trunk">
+				<include name="**/*.php" />
+				<include name="css/*" />
+				<include name="js/*" />
+				<include name="img/*" />
+				<include name="i18n/*" />
+			</zipfileset>
+		</zip>
+	</target>
+
+
+</project>

@@ -1,0 +1,106 @@
+.adminHelpMessage {
+	color: #000000;
+	background: #fcffc4;
+	border: 1px solid #000000;
+	padding: 1ex;
+	vertical-align: middle;
+	min-height: 25px;
+	line-height: 25px;
+}
+
+.adminHelpMessage img {
+	float: left;
+	padding: 0px 10px 0px 5px;
+}
+
+#PolizeipresseAdmin .Polizei {
+	color: #3bb072;
+	font-weight: bold;
+}
+
+#PolizeipresseAdmin .ui-tabs {
+	position: relative;
+	padding: .2em;
+}
+
+#PolizeipresseAdmin .ui-tabs .ui-tabs-nav {
+	margin: 0;
+	width: 100%;
+	height: 32px;
+	border-bottom: 1px solid #aaaaaa;
+}
+
+#PolizeipresseAdmin .ui-tabs .ui-tabs-nav ul {
+	list-style: none;
+}
+
+#PolizeipresseAdmin .ui-tabs .ui-tabs-nav li {
+	float: left;
+	position: relative;
+	padding: 1ex;
+	margin-right: 1ex;
+	white-space: nowrap;
+	border-width: 1px 1px 0px 1px;
+	border-color: #aaaaaa;
+	border-style: solid;
+	border-radius: 5px 5px 0 0; /* CSS3 */
+	-moz-border-radius: 5px 5px 0 0; /* Firefox */
+	-webkit-border-radius: 5px 5px 0 0; /* Safari, Chrome */
+	-khtml-border-radius: 5px 5px 0 0; /* Konqueror */
+	font-size: 13px;
+}
+
+#PolizeipresseAdmin .ui-tabs .ui-tabs-nav li a {
+	padding: .5em 1em;
+	text-decoration: none;
+	color: #000000;
+	background: inherit;
+}
+
+#PolizeipresseAdmin .ui-tabs .ui-tabs-nav li.ui-tabs-selected {
+	background-color: #eeeeee;
+	font-weight: bold;
+}
+
+#searchOfficeDialog {
+	padding: .5em 1em;
+	text-decoration: none;
+	color: #000000;
+	background: inherit;
+}
+
+#searchOfficeDialog #officeSelector {
+	width: 300px;
+}
+
+#searchOfficeDialog #searchOfficeErrorMessage {
+	display: none;
+	text-align: center;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+#PolizeipresseTabGeneral {
+}
+
+#PolizeipresseTabGeneral .label {
+	width: 30ex;
+}
+
+#PolizeipresseTabGeneral .officeRow {
+	border-top: 1px solid #000000;
+}
+
+#PolizeipresseTabFilter {
+}
+
+#PolizeipresseTabFilter .label {
+	width: 40ex;
+}
+
+#PolizeipresseTabCron {
+}
+
+#PolizeipresseTabCron .label {
+	width: 50ex;
+}
